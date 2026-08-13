@@ -40,7 +40,7 @@ Open Plex Web and click the **Stylus** extension icon.
 Create a new style and add the CSS from:
 
 ```text
-catppuccin-mocha.css
+@import url("https://raw.githubusercontent.com/vorlie/various-themes/refs/heads/main/plex/catppuccin.css");
 ```
 
 ### 3. Apply it to Plex
