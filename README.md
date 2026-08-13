@@ -34,7 +34,7 @@ Themes are organized by application:
 ```text
 various-themes/
 ├── plex/
-│   └── catppuccin-mocha.css
+│   └── catppuccin.css
 └── ...
 ```
 

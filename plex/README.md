@@ -6,7 +6,7 @@ This theme uses the [Theme-Park Plex base theme](https://theme-park.dev/css/base
 
 ## 🎨 Preview
 
-<!-- Add screenshots here -->
+![Catppuccin Mocha](catppuccin/preview.png)
 
 ## ✨ Features
 
