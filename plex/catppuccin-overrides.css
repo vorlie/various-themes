@@ -1,0 +1,197 @@
+/* Catppuccin Mocha overrides for plex-base.css */
+
+/* Replace hardcoded border colors with Catppuccin surface colors */
+.modal-content {
+  border: 1px solid rgba(203, 166, 247, 0.2) !important;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(203, 166, 247, 0.1) !important;
+}
+
+.modal-footer {
+  border-top: 1px solid rgba(203, 166, 247, 0.1) !important;
+}
+
+[class*=ServerDashboardPageSection-section-],
+[class*=SettingsFormSection-sectionWrapper-],
+hr {
+  border-top: 2px solid rgba(203, 166, 247, 0.3) !important;
+}
+
+[class*=ClaimedServer-container-],
+[class*=SettingsFormSection-sectionWrapper-]:last-of-type {
+  border-bottom: 2px solid rgba(203, 166, 247, 0.3) !important;
+}
+
+/* Improve spinner colors for Catppuccin */
+[class*=Spinner-spinner-] {
+  border-color: rgb(var(--accent-color)) transparent transparent rgb(var(--accent-color)) !important;
+}
+
+/* Adjust progress bar colors to use Catppuccin green more prominently */
+[class*=MetadataPosterCardProgressBar-bar-],
+[class*=PosterCardOverlayProgress-progressBar-],
+[class*=SeekBar-seekBarFill-],
+[class*=SessionTile-playProgressPercent-],
+[class*=VolumeSlider-fill-] {
+  background-color: #a6e3a1 !important;
+}
+
+/* Better hover states for cards */
+[class*=MetadataPosterCardFace-]:hover,
+[class*=PosterCardLink-hoveredLink-] {
+  box-shadow: 0 0 0 1px #cba6f7, 0 0 8px rgba(203, 166, 247, 0.3) !important;
+}
+
+[class*=MetadataPosterCard-hoveredSelectedLink-],
+[class*=MetadataPosterCard-selectedLink-],
+[class*=MetadataPosterCardFace-isSelected-] {
+  box-shadow: 0 0 0 2px #cba6f7, 0 0 8px rgba(203, 166, 247, 0.4) !important;
+}
+
+/* Adjust selection circles */
+[class*=SelectButton-isSelected-] [class*=SelectButton-selectCircle-] {
+  border-color: #cba6f7 !important;
+  background-color: #cba6f7 !important;
+  box-shadow: 0 0 8px rgba(203, 166, 247, 0.6) !important;
+  color: #1e1e2e !important;
+}
+
+/* Better play button colors */
+[class*=PlayButton-playButton-]:hover [class*=PlayButton-playCircle-],
+[class*=PlayPauseOverlay-playCircle-] {
+  border-color: #a6e3a1 !important;
+  background-color: #a6e3a1 !important;
+  color: #1e1e2e !important;
+}
+
+/* Update sidebar selection to use Catppuccin mauve */
+[class*=SourceSidebarLink-isSelected-] {
+  box-shadow: inset 2px 0 0 0 #cba6f7 !important;
+  background: rgba(203, 166, 247, 0.08) !important;
+}
+
+/* Improve tooltip colors */
+[class*=Tooltip-tooltip-] {
+  background-color: #cba6f7 !important;
+  color: #1e1e2e !important;
+}
+
+[class*=Tooltip-tooltipBottomArrow-]:after {
+  border-top-color: #cba6f7 !important;
+}
+
+[class*=Tooltip-tooltipTopArrow-]:after {
+  border-bottom-color: #cba6f7 !important;
+}
+
+[class*=Tooltip-tooltipRightArrow-]:after {
+  border-left-color: #cba6f7 !important;
+}
+
+[class*=Tooltip-tooltipLeftArrow-]:after {
+  border-right-color: #cba6f7 !important;
+}
+
+/* Better button styling */
+.btn-primary {
+  border-color: #cba6f7 !important;
+  color: #1e1e2e !important;
+  background-color: #cba6f7 !important;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+  color: #1e1e2e !important;
+  background-color: #f5c2e7 !important;
+  border-color: #f5c2e7 !important;
+}
+
+/* Adjust well and card backgrounds */
+.well {
+  background: rgba(49, 50, 68, 0.5) !important;
+  border: 1px solid rgba(203, 166, 247, 0.1) !important;
+}
+
+/* Better active states */
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  background-color: rgba(203, 166, 247, 0.15) !important;
+}
+
+/* Update disclosure arrows */
+[class*=DisclosureArrow-isSelected-] {
+  border-color: #cba6f7 !important;
+}
+
+a:hover [class*=DisclosureArrow-disclosureArrow-],
+button:hover [class*=DisclosureArrow-disclosureArrow-] {
+  border-color: #f5c2e7 !important;
+}
+
+/* Better bottom bar */
+[class*=BottomBar-bottomBar-] {
+  background: rgba(30, 30, 46, 0.85) !important;
+  border-top: 1px solid rgba(203, 166, 247, 0.1) !important;
+}
+
+/* Improve nav bar transparency */
+[class*=NavBar-container-] {
+  background: rgba(30, 30, 46, 0.6) !important;
+}
+
+/* Better dropdown backgrounds */
+.selectize-dropdown,
+.selectize-dropdown.form-control,
+[class*=Menu-menu-] {
+  background: #313244 !important;
+  border: 1px solid rgba(203, 166, 247, 0.2) !important;
+}
+
+/* Update circular progress */
+[class*=CircularProgressBar-circularProgressBar-] {
+  stroke: #a6e3a1 !important;
+}
+
+circle {
+  stroke: #a6e3a1 !important;
+}
+
+/* Better loading spinner */
+.loading {
+  border-color: #a6e3a1 transparent transparent #a6e3a1 !important;
+}
+
+/* Improve tab selection */
+[class*=TabButton-selected-]:after {
+  background-color: #cba6f7 !important;
+}
+
+[class*=TabButton-selected-]:hover:after {
+  background-color: #f5c2e7 !important;
+}
+
+/* Better badge styling */
+[class*=Badge-primary-] {
+  background-color: #cba6f7 !important;
+  color: #1e1e2e !important;
+}
+
+/* Update header colors for better contrast */
+[class*=PageHeader-pageHeader-],
+[class*=PageHeaderTitle-title-] {
+  color: #eff1f5 !important;
+}
+
+/* Better selection states */
+[class*=IconButton-isActive-],
+[class*=SelectedMenuItem-isSelected-],
+[class*=SelectedMenuItem-isSelected-] [class*=SelectedMenuItem-selectedIcon-] {
+  color: #cba6f7 !important;
+}
+
+[class*=IconButton-isActive-]:hover {
+  color: #f5c2e7 !important;
+}
