@@ -37,7 +37,7 @@ Install the Stylus browser extension for your browser:
 
 Open Plex Web and click the **Stylus** extension icon.
 
-Create a new style and add the CSS from:
+Create a new style and add the CSS import:
 
 ```text
 @import url("https://raw.githubusercontent.com/vorlie/various-themes/refs/heads/main/plex/catppuccin.css");
